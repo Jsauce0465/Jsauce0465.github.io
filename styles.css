@@ -1,0 +1,25 @@
+body 
+{
+    background-color: powderblue;
+}
+
+h1 
+{
+    color: blue;
+    font-family: verdana;
+}
+
+h2 
+{
+    color: violet;
+    font-family: courier;
+}
+
+p 
+{
+    color: red;
+    font-size: 300%;
+    border: 2px solid orange;
+    padding: 15px; /* Inside border */
+    margin: 15px; /* Outside border */
+}
