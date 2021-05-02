@@ -17,10 +17,14 @@
             if(document.getElementById("bg").style.backgroundColor == "red")
             {
                 document.getElementById("bg").style.backgroundColor = "powderblue";
+                document.getElementById("demo").style.color = "red";
+                document.getElementById("name").style.color = "red";
             }
             else
             {
                 document.getElementById("bg").style.backgroundColor = "red";
+                document.getElementById("demo").style.color = "powderblue";
+                document.getElementById("name").style.color = "powderblue";
             }
             
         }
@@ -35,7 +39,7 @@
 
     <div class="math">
 
-        <p>
+        <p id="name">
             <image src="gallery/jacobmason.jpg" alt="Jacob Mason" style="width:274px;height:300px;">
                 Jacob Mason
         </p>
