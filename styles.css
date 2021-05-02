@@ -22,4 +22,16 @@ p
     border: 2px solid orange;
     padding: 15px; /* Inside border */
     margin: 15px; /* Outside border */
+    background-color: powderblue;
+}
+
+.math
+{
+    background-color:yellowgreen;
+    padding: 15px;
+}
+
+#page2
+{
+    background-color:orchid;
 }
