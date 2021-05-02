@@ -14,7 +14,15 @@
             document.getElementById('demo').innerHTML = Date();
         }
         function changeBG() {
-            document.getElementById("bg").style.backgroundColor = "red";
+            if(document.getElementById("bg").style.backgroundColor == "red")
+            {
+                document.getElementById("bg").style.backgroundColor = "powderblue";
+            }
+            else
+            {
+                document.getElementById("bg").style.backgroundColor = "red";
+            }
+            
         }
     </script>
 </head>
