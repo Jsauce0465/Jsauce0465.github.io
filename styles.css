@@ -3,35 +3,11 @@ body
     background-color: powderblue;
 }
 
-h1 
+center
 {
-    color: blue;
+    color: green;
     font-family: verdana;
-}
-
-h2 
-{
-    color: violet;
-    font-family: courier;
-}
-
-p 
-{
-    color: red;
-    font-size: 300%;
-    border: 2px solid orange;
-    padding: 15px; /* Inside border */
-    margin: 15px; /* Outside border */
-    background-color: powderblue;
-}
-
-.math
-{
-    background-color:yellowgreen;
-    padding: 15px;
-}
-
-#page2
-{
-    background-color:orchid;
+	font-size: 70px;
+	padding: 200px 0;
+	
 }
