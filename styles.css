@@ -1,13 +1,36 @@
-body 
-{
-    background-color: powderblue;
+*{
+	margin: 0;
+	padding 0;
+	font-family: sans-serif;
 }
 
-p
-{
-    color: green;
-    font-family: verdana;
-    font-size: 70px;
-    padding: 200px;
-	
+#header{
+	height: 100vh;
+	background-image: url(images/background.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.container{
+	margin-right: 100px;
+	margin-left: 50px;
+}
+
+.logo{
+	margin-top: 50px;
+	width: 150px;
+}
+
+.headertextcontainer{
+	margin-left: 100px;
+	color: #ca2c4e;
+	font-size: 34px;
+	display: inline-block;	
+}
+
+.headertext{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	position: relative;
+	bottom: 50px;
 }
